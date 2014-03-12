@@ -7,7 +7,7 @@ user name is 'root' and the password is 'secret'.
 2. vagrant plugin install vagrant-hostmanager
 3. Download this project.
 4. Run 'Vagrant up'
-5. Run 'post_spinup.sh'
+5. Run 'post_spinnup.sh'
 
 ```
 I had trouble getting vagrant to start.
