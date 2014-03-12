@@ -15,6 +15,7 @@ The following steps fixed it:
 
 6.  vagrant ssh master
 7.  ./accumulo_home/bin/accumulo/bin/stop-all.sh 
+    - Sometimes I have to hit <ctrl>+c to get it to force a shutdown
 8.  ./accumulo_home/bin/accumulo/bin/start-all.sh 
 9.  <be patient>
 ```
