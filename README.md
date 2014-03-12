@@ -9,6 +9,15 @@ user name is 'root' and the password is 'secret'.
 4. Run 'Vagrant up'
 5. Run 'post_spinup.sh'
 
+```
+I had trouble getting vagrant to start.
+The following steps fixed it:
+
+6.  vagrant ssh master
+7.  ./accumulo_home/bin/accumulo/bin/stop-all.sh 
+8.  ./accumulo_home/bin/accumulo/bin/start-all.sh 
+9.  <be patient>
+```
 Now you can visit the following URLs in your browser:
 
 <a href='http://affy-master:50095/'>http://affy-master:50095/</a><br/>
